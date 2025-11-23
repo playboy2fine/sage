@@ -4,6 +4,9 @@ version: v0.1.0 - Serenity Alpha
 # If debug logs should be enabled, if "false", level will be set to "info"
 debug: true
 
+# Default timestamp string format to be used throughout the client
+timestamp_format: "%Y/%m/%d %H:%M:%S"
+
 # If the Sage logger should forward discord.py logs to the console
 forward_discord_logs: false
 
@@ -17,7 +20,7 @@ status:
   log: false  # If status updates should be logged to the console (causes spam)
 
 # Extensions that shouldn't be allowed to be manipulated through commands
-internal-extensions:
+internal_extensions:
   - event_handler
 
 # List of permissions to add to intent object factory

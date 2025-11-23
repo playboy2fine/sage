@@ -1,0 +1,43 @@
+statuses:
+  maintenance:
+    - ⚠️  In maintenance
+  standard:
+    - ✌️ Listening to your commands
+    - 🥰 At your service
+
+states:
+  yes: Yes
+  no: No
+  on: On
+  off: Off
+
+ui:
+  button_yes: ✅  Yes
+  button_no: ❌  No
+  button_confirm: ✅  Confirm
+  button_cancel: ❌  Cancel
+  button_close: ❌  Close
+  button_back: ⬅️  Back
+  button_next: ➡️  Next
+
+errors:
+  invalid_arguments: ❌  Invalid arguments provided\n`{args}`
+  blacklisted: ❌  You are blacklisted from using commands in this server.
+  not_in_guild: ❌  You must be in a server to use this command.
+  not_owner: ❌  You must be the owner of this Sage instance to use this command.
+  not_admin: ❌  You must be an admin of this server to use this command.
+  unknown: ❌  An unknown error occurred.
+  timeout: 🕓  This interaction has timed out.
+  missing_perms: ❌  You don't have the necessary permissions to use this command.\n`{perms}`
+  bot_missing_perms: ❌  I don't have the necessary permissions to run this command.\n`{perms}`
+  transformer_error: ❌  An error occurred while converting a command argument.
+
+commands:
+  # ----
+  # Core
+  # ----
+
+  # /ping
+  core_ping_name: ping
+  core_ping_desc: Check if Sage is alive.
+  core_ping_resp: "🏓  **Pong!**\nLatency to discord: `{latency}ms`"
