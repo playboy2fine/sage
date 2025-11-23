@@ -1,0 +1,40 @@
+# Current version string of Sage
+version: v0.1.0 - Serenity Alpha
+
+# If debug logs should be enabled, if "false", level will be set to "info"
+debug: true
+
+# If the Sage logger should forward discord.py logs to the console
+forward_discord_logs: false
+
+# If the command tree should always be synced during startup
+always_sync_command_tree: false
+
+# Status message
+status:
+  language: en-GB  # String language
+  interval: 5  # Interval in minutes to update
+  log: false  # If status updates should be logged to the console (causes spam)
+
+# Extensions that shouldn't be allowed to be manipulated through commands
+internal-extensions:
+  - event_handler
+
+# List of permissions to add to intent object factory
+# https://discordpy-reborn.readthedocs.io/en/latest/api.html?highlight=intent#intents
+intents:
+  dm_messages: true
+  dm_typing: true
+  guild_messages: true
+  guild_typing: true
+  guilds: true
+  integrations: true
+  voice_states: true
+  webhooks: true
+  members: true
+  message_content: true
+  moderation: true
+  presences: true
+  messages: true
+  typing: true
+  bans: true
