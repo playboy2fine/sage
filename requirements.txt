@@ -1,4 +1,7 @@
+alembic
 asyncpg
 discord.py[voice]
 pydantic
+python-dotenv
 pyyaml
+sqlalchemy

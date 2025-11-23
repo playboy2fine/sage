@@ -1,7 +1,7 @@
 FROM ubuntu:24.04
 
-ENV PATH="/sage/bin:${PATH}"
 ENV PYTHONPATH /sage
+ENV PYTHONUNBUFFERED 1
 ENV PYTHONDONTWRITEBYTECODE 1
 
 RUN apt update && \
@@ -15,17 +15,15 @@ RUN mkdir -p \
     /var/sage/logs/history \
     /var/sage/logs/tracebacks
 
-COPY ./requirements.txt .
+COPY ./LICENSE .
+COPY ./README.md .
+COPY ./pyproject.toml .
 COPY ./entrypoint.sh .
-# COPY ./bin .
 
 RUN chmod -R 777 /var/sage
 RUN chmod +x entrypoint.sh
-# RUN chmod -R +x bin
 
 RUN python3 -m venv /sage/venv
-RUN /sage/venv/bin/pip install --no-cache-dir -r requirements.txt
-
-# EXPOSE 8000
+RUN /sage/venv/bin/pip install --no-cache-dir -e .
 
 CMD ["./entrypoint.sh"]

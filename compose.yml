@@ -5,8 +5,6 @@ services:
       dockerfile: Dockerfile
     env_file: .env
     container_name: sage_bot
-    # ports:
-    #   - "10000:8000"
     volumes:
       - ./sage:/sage/sage
       - sage_bot_data:/var/sage
@@ -27,6 +25,7 @@ services:
       - sage_db_data:/var/lib/postgresql/data/
     networks:
       - sage_net
+    restart: unless-stopped
     healthcheck:
       test: ["CMD", "pg_isready", "-U", "${POSTGRES_USER}"]
       interval: 10s

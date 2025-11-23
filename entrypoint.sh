@@ -1,21 +1,17 @@
 #!/usr/bin/env bash
-
-set -e
+set -euo pipefail
 
 . /sage/venv/bin/activate
 
-handle_term() {
-  echo "Received SIGTERM/SIGINT, shutting down..."
-
-  if [ -n "$app_pid" ]; then
-    kill -TERM "$app_pid"
-    wait "$app_pid"
-  fi
-
-  exit 0
+_term() {
+  echo "Received SIGTERM, stopping..."
 }
 
-trap handle_term SIGTERM SIGINT
+_int() {
+  echo "Received SIGINT, stopping..."
+}
 
-app_pid=$!
-wait "$app_pid"
+trap _term SIGTERM
+trap _int SIGINT
+
+exec sage
